@@ -1,13 +1,13 @@
-const pipelineStatus = require('./lib/pipeline-status');
-const pipelineType = require('./lib/pipeline-type');
-const taskStatus = require('./lib/task-status');
-const verbosityLevel = require('./lib/verbosity-level');
-const buildType = require('./lib/build-type');
+const pipelineStatuses = require('./lib/pipeline-statuses');
+const pipelineTypes = require('./lib/pipeline-types');
+const taskStatuses = require('./lib/task-statuses');
+const verbosityLevels = require('./lib/verbosity-levels');
+const buildTypes = require('./lib/build-types');
 
 module.exports = {
-    pipelineStatus,
-    pipelineType,
-    taskStatus,
-    verbosityLevel,
-    buildType
+    pipelineStatuses,
+    pipelineTypes,
+    taskStatuses,
+    verbosityLevels,
+    buildTypes
 };
