@@ -5,6 +5,7 @@ const pipelineTypes = require('./lib/pipeline-types');
 const taskStatuses = require('./lib/task-statuses');
 const verbosityLevels = require('./lib/verbosity-levels');
 const buildTypes = require('./lib/build-types');
+const retryPolicy = require('./lib/retry-policy');
 
 module.exports = {
     boardStatuses,
@@ -13,5 +14,6 @@ module.exports = {
     pipelineTypes,
     taskStatuses,
     verbosityLevels,
-    buildTypes
+    buildTypes,
+    retryPolicy
 };
