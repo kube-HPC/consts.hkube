@@ -6,6 +6,7 @@ const taskStatuses = require('./lib/task-statuses');
 const verbosityLevels = require('./lib/verbosity-levels');
 const buildTypes = require('./lib/build-types');
 const retryPolicy = require('./lib/retry-policy');
+const graphEdgeTypes = require('./lib/graph-edge-types');
 
 module.exports = {
     boardStatuses,
@@ -15,5 +16,6 @@ module.exports = {
     taskStatuses,
     verbosityLevels,
     buildTypes,
-    retryPolicy
+    retryPolicy,
+    graphEdgeTypes
 };
