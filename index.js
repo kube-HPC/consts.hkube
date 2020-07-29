@@ -2,6 +2,7 @@ const boardStatuses = require('./lib/board-statuses');
 const buildStatuses = require('./lib/build-statuses');
 const buildTypes = require('./lib/build-types');
 const graphEdgeTypes = require('./lib/graph-edge-types');
+const pipelineKind = require('./lib/pipeline-kind');
 const pipelineStatuses = require('./lib/pipeline-statuses');
 const pipelineTypes = require('./lib/pipeline-types');
 const retryPolicy = require('./lib/retry-policy');
@@ -14,6 +15,7 @@ module.exports = {
     buildStatuses,
     buildTypes,
     graphEdgeTypes,
+    pipelineKind,
     pipelineStatuses,
     pipelineTypes,
     retryPolicy,
