@@ -10,6 +10,7 @@ const retryPolicy = require('./lib/retry-policy');
 const stateType = require('./lib/state-type');
 const taskStatuses = require('./lib/task-statuses');
 const verbosityLevels = require('./lib/verbosity-levels');
+const logModes = require('./lib/logModes');
 
 module.exports = {
     boardStatuses,
@@ -23,5 +24,6 @@ module.exports = {
     retryPolicy,
     stateType,
     taskStatuses,
-    verbosityLevels
+    verbosityLevels,
+    logModes
 };
