@@ -1,5 +1,5 @@
 const boardStatuses = require('./lib/board-statuses');
-const {statuses: devenvStatuses, types: devenvTypes} = require('./lib/devenvs');
+const { statuses: devenvStatuses, types: devenvTypes } = require('./lib/devenvs');
 const buildStatuses = require('./lib/build-statuses');
 const buildTypes = require('./lib/build-types');
 const graphEdgeTypes = require('./lib/graph-edge-types');
