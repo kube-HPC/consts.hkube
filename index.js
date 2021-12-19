@@ -12,6 +12,7 @@ const stateType = require('./lib/state-type');
 const taskStatuses = require('./lib/task-statuses');
 const verbosityLevels = require('./lib/verbosity-levels');
 const logModes = require('./lib/logModes');
+const queuePositions = require('./lib/queue-positions');
 
 module.exports = {
     boardStatuses,
@@ -28,5 +29,6 @@ module.exports = {
     stateType,
     taskStatuses,
     verbosityLevels,
-    logModes
+    logModes,
+    queuePositions
 };
