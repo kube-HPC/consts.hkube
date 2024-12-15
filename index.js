@@ -15,6 +15,7 @@ const logModes = require('./lib/logModes');
 const queuePositions = require('./lib/queue-positions');
 const errorsCode = require('./lib/errors-code');
 const podStatus = require('./lib/pod-statuses');
+const warningCodes = require('./lib/warning-codes');
 
 module.exports = {
     boardStatuses,
@@ -34,5 +35,6 @@ module.exports = {
     logModes,
     queuePositions,
     errorsCode,
-    podStatus
+    podStatus,
+    warningCodes
 };
