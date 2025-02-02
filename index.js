@@ -16,6 +16,7 @@ const queuePositions = require('./lib/queue-positions');
 const errorsCode = require('./lib/errors-code');
 const podStatus = require('./lib/pod-statuses');
 const warningCodes = require('./lib/warning-codes');
+const keycloakRoles = require('./lib/keycloak-roles');
 
 module.exports = {
     boardStatuses,
@@ -36,5 +37,6 @@ module.exports = {
     queuePositions,
     errorsCode,
     podStatus,
-    warningCodes
+    warningCodes,
+    keycloakRoles
 };
