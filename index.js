@@ -17,6 +17,7 @@ const errorsCode = require('./lib/errors-code');
 const podStatus = require('./lib/pod-statuses');
 const warningCodes = require('./lib/warning-codes');
 const keycloakRoles = require('./lib/keycloak-roles');
+const executeActions = require('./lib/exec-actions');
 
 module.exports = {
     boardStatuses,
@@ -38,5 +39,6 @@ module.exports = {
     errorsCode,
     podStatus,
     warningCodes,
-    keycloakRoles
+    keycloakRoles,
+    executeActions
 };
