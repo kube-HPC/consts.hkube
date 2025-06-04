@@ -1,6 +1,6 @@
 {
   "name": "@hkube/consts",
-  "version": "1.0.59",
+  "version": "1.0.60",
   "description": "Hkube consts",
   "main": "index.js",
   "scripts": {
