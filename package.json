@@ -1,12 +1,12 @@
 {
   "name": "@hkube/consts",
-  "version": "1.0.61",
+  "version": "1.0.62",
   "description": "Hkube consts",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/kube-HPC/consts.hkube.git"
-    },
+  },
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js .",
     "test": "echo \"no test specified\" && exit 0",
